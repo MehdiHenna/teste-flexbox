@@ -1,0 +1,36 @@
+html, body, .containeur{
+	height: 100%;
+	margin: 0;
+	
+
+}
+
+.containeur{
+	display flex;
+
+}
+
+header{
+	height: 100px;
+	background-color: red;
+	display: flex;
+	width: 100%;
+	position: fixed;
+}
+.text{
+	display: flex;
+	flex:1;
+}
+article{
+	overflow: visible;
+	-webkit-columns: 10;
+	-moz-columns: 10;
+	columns: 10;
+}
+
+footer{
+	height: 30%;
+	width: 100%;
+	background-color: black;
+	position:fixed;
+}
